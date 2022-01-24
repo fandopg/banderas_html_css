@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(to right, rgb(128, 129, 136), rgb(72, 172, 155));
+    padding: 50px;
+}
+.flags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.france {
+    display: flex;
+    height: 180px;
+    width: 300px;
+}.france .blue {
+    width: 33.3%;
+    background-color: #002395;
+}.france .white {
+    width: 33.3%;
+    background-color: #FFF;
+}.france .red {
+    width: 33.3%;
+    background-color: #ED2939;
+}
+
+.germany {
+    display: flex;
+    height: 180px;
+    width: 300px;
+    flex-direction: column;
+}
+.germany .black {
+    height: 33.3%;
+    background-color: #000;
+}
+.germany .red {
+    height: 33.3%;
+    background-color: #DD0000;
+}
+.germany .yellow {
+    height: 33.3%;
+    background-color: #FFCC00;
+}
+
+.england {
+    display: flex;
+    height: 180px;
+    width: 300px;
+    background-color: #CE1124;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.england .square1 {
+    background-color: #FFF;
+    height: 42%;
+    width: 42%;
+}
+.england .square2 {
+    background-color: #FFF;
+    height: 42%;
+    width: 42%;    
+} 
+.england .square3 {
+    background-color: #FFF;
+    height: 42%;
+    width: 42%;   
+} 
+.england .square4 {
+    background-color: #FFF;
+    height: 42%;
+    width: 42%;
+}  
+
+.japan {
+    display: flex;
+    height: 180px;
+    width: 300px;
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+}
+.japan .circle {
+    height: 125px;
+    width: 125px;
+    background-color: #BC002D;
+    border-radius: 50%;
+
+}
+
+.mexico {
+    display: flex;
+    height: 180px;
+    width: 300px;
+}
+.mexico .green {
+    width: 33.3%;
+    background-color: #006341;
+}
+.mexico .white {
+    display: flex;
+    width: 33.3%;
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+}
+.mexico .red {
+    width: 33.3%;
+    background-color: #C8102E;
+}
+
+.mexico .white img {
+    height: 70px;    
+}
+
