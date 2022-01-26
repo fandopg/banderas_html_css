@@ -1,6 +1,10 @@
 body {
     background: linear-gradient(to right, rgb(128, 129, 136), rgb(72, 172, 155));
     padding: 50px;
+    font-family: 'Libre Baskerville', serif;
+    color: grey;
+    -webkit-text-stroke: 1px rgb(26, 26, 26);
+    font-size: 35px;
 }
 .flags {
     display: flex;
@@ -12,6 +16,7 @@ body {
     display: flex;
     height: 180px;
     width: 300px;
+    position: relative;
 }.france .blue {
     width: 33.3%;
     background-color: #002395;
@@ -22,12 +27,27 @@ body {
     width: 33.3%;
     background-color: #ED2939;
 }
+.france p {
+    position: absolute;
+    visibility: hidden;
+}
+.france:hover :not(p){
+    filter: blur(8px);
+}
+.france:hover p {
+    visibility: visible;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .germany {
     display: flex;
     height: 180px;
     width: 300px;
     flex-direction: column;
+    position: relative;
 }
 .germany .black {
     height: 33.3%;
@@ -41,6 +61,20 @@ body {
     height: 33.3%;
     background-color: #FFCC00;
 }
+.germany p {
+    position: absolute;
+    visibility: hidden;
+}
+.germany:hover :not(p){
+    filter: blur(8px);
+}
+.germany:hover p {
+    visibility: visible;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .england {
     display: flex;
@@ -50,6 +84,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
+    position: relative;
 }
 .england .square1 {
     background-color: #FFF;
@@ -71,6 +106,20 @@ body {
     height: 42%;
     width: 42%;
 }  
+.england p {
+    position: absolute;
+    visibility: hidden;
+}
+.england:hover :not(p){
+    filter: blur(8px);
+}
+.england:hover p {
+    visibility: visible;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .japan {
     display: flex;
@@ -79,6 +128,7 @@ body {
     background-color: #FFF;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .japan .circle {
     height: 125px;
@@ -87,11 +137,26 @@ body {
     border-radius: 50%;
 
 }
+.japan p {
+    position: absolute;
+    visibility: hidden;
+}
+.japan:hover :not(p){
+    filter: blur(8px);
+}
+.japan:hover p {
+    visibility: visible;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .mexico {
     display: flex;
     height: 180px;
     width: 300px;
+    position: relative;
 }
 .mexico .green {
     width: 33.3%;
@@ -112,4 +177,19 @@ body {
 .mexico .white img {
     height: 70px;    
 }
+.mexico p {
+    position: absolute;
+    visibility: hidden;
+}
+.mexico:hover :not(p){
+    filter: blur(8px);
+}
+.mexico:hover p {
+    visibility: visible;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
