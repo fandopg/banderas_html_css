@@ -1,5 +1,5 @@
-# kodemia_banderas
-Ejercicio de creacion de banderas con css 
+# Banderas
+Ejercicio de creacion de banderas utilizando unicamente html y css 
 
 Github pages:
 
