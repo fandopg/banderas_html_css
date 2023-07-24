@@ -3,4 +3,4 @@ Ejercicio de creacion de banderas utilizando unicamente html y css
 
 Github pages:
 
-https://fandopg.github.io/kodemia_banderas/
+https://fandopg.github.io/banderas_html_css/
